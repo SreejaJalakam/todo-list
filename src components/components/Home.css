@@ -1,0 +1,88 @@
+/* Home.css */
+
+#body {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    padding-top: 3rem;
+  }
+  
+  #form {
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #label {
+    margin-top: 1rem;
+  }
+  
+  #input {
+    margin-bottom: 1rem;
+  }
+  
+  #schedulebutton {
+    background-color: #ffc107;
+    border: none;
+    color: #212529;
+  }
+  
+  #schedulebutton:hover {
+    background-color: #e0a800;
+  }
+  
+  #topbtn {
+    background: none;
+    border: none;
+    color: inherit;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  #topbtn:hover {
+    color: #212529;
+  }
+  
+  .hover-data {
+    position: absolute;
+    background: #ffffff;
+    padding: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  #img {
+    width: 20px;
+    height: 20px;
+    margin-left: 0.5rem;
+  }
+  
+  .table {
+    margin-top: 2rem;
+  }
+  
+  .table thead {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .table th,
+  .table td {
+    vertical-align: middle;
+  }
+  
+  audio {
+    display: none;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .nav-item + .nav-item {
+    margin-left: 1rem;
+  }
+  
